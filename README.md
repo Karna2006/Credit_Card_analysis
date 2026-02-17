@@ -55,7 +55,7 @@ graph TD
     H --> I[SHAP Analysis]
     I --> J[Predictions]
 
-##Quick Star
+## **Quick Start**
 # 1. Clone repository
 git clone https://github.com/yourusername/credit-card-default-prediction.git
 cd credit-card-default-prediction
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 # 3. Launch notebook
 jupyter notebook Credit_card_analysis.ipynb
 
-##Key Results
+## **Key Results**
 Model	F2-Score	Recall	Precision
 XGBoost	0.78	0.82	0.75
 Random Forest	0.74	0.79	0.71
