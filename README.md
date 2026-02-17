@@ -55,7 +55,10 @@ graph TD
     H --> I[SHAP Analysis]
     I --> J[Predictions]
 
-## **Quick Start**
+
+
+🚀 Quick Start
+bash
 # 1. Clone repository
 git clone https://github.com/yourusername/credit-card-default-prediction.git
 cd credit-card-default-prediction
@@ -65,13 +68,29 @@ pip install -r requirements.txt
 
 # 3. Launch notebook
 jupyter notebook Credit_card_analysis.ipynb
-
-## **Key Results**
+📦 Requirements
+text
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+imbalanced-learn>=0.11.0
+shap>=0.42.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+📈 Key Results
 Model	F2-Score	Recall	Precision
 XGBoost	0.78	0.82	0.75
 Random Forest	0.74	0.79	0.71
 Logistic Regression	0.68	0.72	0.65
-
+🔍 Feature Importance (SHAP)
+text
+1. DelinquencySeverity (40%)
+2. MaxDelinquencyStreak (25%)
+3. CreditUtilization3M (15%)
+4. pay0 (12%)
+5. PaymentCompliance (8%)
 🎓 Perfect For
 ML portfolios & interviews
 
@@ -83,6 +102,12 @@ Imbalanced classification studies
 
 📝 Future Improvements
  Ensemble stacking
+
+ Time-series validation
+
+ External economic features
+
+ Model deployment (FastAPI)
 
  Time-series validation
 
